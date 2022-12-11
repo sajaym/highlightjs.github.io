@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- highlight.js -->
+    <script src="highlightjs/highlight.min.js"></script>
+    <link rel="stylesheet" href="highlightjs/highlight.css"/>
+    
+</head>
+<body>
+<h1>Code Highlighter</h1>
+<pre><code>&#x3C;script src=&#x22;highlightjs/highlight.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+&#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;highlightjs/highlight.css&#x22;/&#x3E;
+</code></pre>
+
+<a href="highlight.min.js">highlight.min.js</a>
+<a href="highlight.min.js">highlight.css</a>
+
+<pre><code>&#x3C;!DOCTYPE html&#x3E;
+  &#x3C;html lang=&#x22;en&#x22;&#x3E;
+  &#x3C;head&#x3E;
+      &#x3C;meta charset=&#x22;UTF-8&#x22;&#x3E;
+      &#x3C;meta http-equiv=&#x22;X-UA-Compatible&#x22; content=&#x22;IE=edge&#x22;&#x3E;
+      &#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1.0&#x22;&#x3E;
+      &#x3C;title&#x3E;Document&#x3C;/title&#x3E;
+  &#x3C;/head&#x3E;
+  &#x3C;body&#x3E;
+      &#x3C;h1 class=&#x22;title&#x22;&#x3E;Heading&#x3C;/h1&#x3E;
+      &#x3C;p id=&#x22;main&#x22;&#x3E;Lorem ipsum dolor sit amet consectetur adipisicing elit. In, nostrum.&#x3C;/p&#x3E;
+  &#x3C;/body&#x3E;
+  &#x3C;/html&#x3E;</code></pre>
+<pre><code class="language-css">.hljs {
+  display: block;
+  overflow-x: auto;
+  /* Custom font is optional */
+  font-family: &#x22;Red Hat Mono&#x22;, &#x22;Fira Code&#x22;, &#x22;Menlo&#x22;, &#x22;Monaco&#x22;, &#x22;Courier New&#x22;,
+    &#x22;monospace&#x22;;
+  line-height: 1.5;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #0D1117;
+  font-weight: normal;
+  border-radius: 0.25rem;
+}
+
+.hljs-title {
+  color: #CDA0F9;
+  font-weight: normal;
+}</code></pre>
+        
+<pre><code class="language-js">const btn = document.getElementById('btn');
+let count = 0;
+// this is comment
+function render() {
+    btn.innerText = 'Count: ${count}';
+    // Count from 1 to 10.
+    if (count < 10) {
+        count += 1;
+        render();
+    }
+}</code></pre>
+
+
+</body>
+</html>
